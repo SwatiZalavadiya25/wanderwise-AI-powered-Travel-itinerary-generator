@@ -1,0 +1,36 @@
+:root {
+  font-family: Inter, system-ui, sans-serif;
+  color: #172b4d;
+  background: #f4f7fc;
+
+  --color-primary: #5b5cf0;
+  --color-text: #172b4d;
+  --color-muted: #71809b;
+  --color-border: #dfe7f3;
+  --color-surface: #ffffff;
+
+  --radius-card: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}   
