@@ -1,3 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --font-dm: "DM Sans", sans-serif;
+  --font-subtitle: "DM Sans", sans-serif;
+}
+
 :root {
   font-family: Inter, system-ui, sans-serif;
   color: #172b4d;
